@@ -1,21 +1,32 @@
-# JDBC CRUD Project
+# 🎓 Student Management System (JDBC)
 
-A Java application that demonstrates CRUD operations using JDBC with PostgreSQL.
+A Java console application for managing students using JDBC and PostgreSQL.
 
-## Features
-- SELECT data from database
-- INSERT data using Statement & PreparedStatement
-- UPDATE records using PreparedStatement
-- DELETE records safely
+## 🚀 Features
+- View all students
+- Add new student
+- Update student details
+- Delete student
+- Search student by ID
 
-## Tech Stack
+## 🛠️ Tech Stack
 - Java
 - JDBC
 - PostgreSQL
 - Maven
 
-## Learning Goals
-- JDBC connection handling
-- Statement vs PreparedStatement
-- SQL operations in Java
-- try-with-resources
+## 🧠 Concepts Used
+- DAO Design Pattern
+- PreparedStatement
+- ResultSet Mapping
+- Try-with-resources
+
+## ⚙️ Setup
+1. Create PostgreSQL database
+2. Update DBConnection credentials
+3. Run Main class
+
+## 📌 Future Improvements
+- Console Menu System
+- Input validation
+- Exception handling improvement
